@@ -1,0 +1,25 @@
+{
+  "name": "website-update-observer",
+  "version": "1.0.0",
+  "author": "Arthur Koba",
+  "license": "MIT",
+  "description": "This is a server that monitors updates to single page application websites.",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "tests": "tsx src/tests.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-html-parser": "^6.1.13"
+  }
+}
